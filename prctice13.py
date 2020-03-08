@@ -20,6 +20,14 @@ new='singh'
 n=str1.replace(old,new)
 print(n)'''
 
-str1='rituraj'
+'''str1='rituraj'
 str2=str1.replace('ritu','uuuuu')
-print(str2)
+print(str2)'''
+
+'''rr='hii how re'
+n=rr.split(' ')
+print(n)
+a='-'.join(n)
+print(a)'''
+'''print '-'.join(input('this is a string').split())'''
+
