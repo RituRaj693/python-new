@@ -1,17 +1,25 @@
-'''def rev(s):
-    str=''
-    for i in s:
-        str=i+str
-    return str
-s='rituraj'
-print(rev(s))'''
+'''str1='geekforgeek'
+count=0
+for i in range(len(str1)):
+    count=i+1
+    print(i,"->", str1[i])
+print("Total Number of Character:", count)'''
 
-#####Method 2 reverse of string
-def rev(s):
-    if len(s)==0:
-        return s
-    else:
-        return rev(s[1:0])+s[0]
-s='rajsi'
-print(rev(s))
+'''str1='python'
+str2='ython'
+result=str1<str2
+print(result)'''
 
+'''str1='ritu'
+n=str1.upper()
+print(n)'''
+
+'''str1='rituraj'
+old='ritu'
+new='singh'
+n=str1.replace(old,new)
+print(n)'''
+
+str1='rituraj'
+str2=str1.replace('ritu','uuuuu')
+print(str2)
