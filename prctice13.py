@@ -29,5 +29,22 @@ n=rr.split(' ')
 print(n)
 a='-'.join(n)
 print(a)'''
-'''print '-'.join(input('this is a string').split())'''
+'''str1='abracadabra'
+str2=str1.split('')
+print(str2)'''
+
+'''s1='hi_how_are_you'
+s2=s1.split('_')
+print(s2)
+s3='&'.join(s2)
+print(s3)'''
+s1='aabrakadabra'
+s2=list(s1)
+s2.append('c':[4])
+print(s2)
+
+
+
+
+
 
